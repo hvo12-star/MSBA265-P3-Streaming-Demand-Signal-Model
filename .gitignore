@@ -1,0 +1,37 @@
+# OS / SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+# PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ENV / CONDA
+.env
+.venv
+env/
+venv/
+conda-meta/
+
+# JUPYTER
+.ipynb_checkpoints/
+
+# IDE / EDITOR
+.vscode/
+.idea/
+
+# TEMP FILES
+*.log
+*.tmp
+*.bak
+
+# WORD TEMP FILES
+~$*.docx
+
+# LARGE / OPTIONAL FILES
+Data/imdb/*.gz
+
+# CACHE / DOWNLOADS
+.cache/

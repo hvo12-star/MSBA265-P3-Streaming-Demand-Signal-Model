@@ -1,0 +1,10 @@
+query,theme_query,search_interest,increase_percent,increase_percent_clean
+historical fiction,historical fiction books,5,110%,110
+classic books,classic literature books,1,60%,60
+dystopian books,dystopian books,1,50%,50
+fantasy,fantasy books,11,40%,40
+science fiction,science fiction books,4,40%,40
+literary fiction,literary fiction books,2,30%,30
+fiction,fiction books,25,20%,20
+horror books,horror books,2,20%,20
+contemporary fiction,contemporary fiction books,1,20%,20
