@@ -33,28 +33,31 @@ Google Trends → Demand Modeling → IMDb Supply → Opportunity Model → Titl
 
 ## 4. Folder Structure
 
-P3/
+## 4. Folder Structure
+
+P3/ 
+│ 
+├── Data/ 
+│   ├── trends_theme_timeseries.csv 
+│   ├── clean_theme_candidates.csv 
+│   ├── searched_with_rising_queries.csv 
+│   ├── fallback_titles.csv 
+│   ├── theme_priority_scores.csv 
+│   ├── imdb_theme_metrics.csv 
+│   ├── title_recommendations.csv 
+│   ├── eda_before_cleaning.png 
+│   ├── eda_after_feature_engineering.png 
+│   └── imdb/   (raw IMDb files not included due to size) 
 │
-├── Data/
-│   ├── imdb/
-│   │   ├── title.basics.tsv.gz
-│   │   └── title.ratings.tsv.gz
-│   │
-│   ├── trends_theme_timeseries.csv
-│   ├── clean_theme_candidates.csv
-│   ├── eda_before_cleaning.png
-│   ├── eda_after_feature_engineering.png
-│   ├── theme_priority_scores.csv
-│   ├── imdb_theme_metrics.csv
-│   ├── fallback_titles.csv
-│   └── title_recommendations.csv
+├── build_themes.py 
+├── build_model.py 
+├── build_imdb_metrics.py 
+├── get_titles.py 
+├── themes.py 
 │
-├── build_themes.py
-├── build_model.py
-├── build_imdb_metrics.py
-├── get_titles.py
-├── requirements.txt
-└── README.md
+├── requirements.txt 
+├── README.md 
+└── P3_Report.pdf 
 
 ---
 
